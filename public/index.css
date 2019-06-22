@@ -1,0 +1,81 @@
+@font-face {
+  font-family: alba;
+  src: url("alba.ttf");
+}
+
+@font-face {
+  font-family: albam;
+  src: url("albam.ttf");
+}
+
+@font-face {
+  font-family: albas;
+  src: url("albas.ttf");
+}
+
+body {
+  background-size: 25% 100%;
+  background-repeat: repeat-x;
+  background-image: url("bground-repeat.png");
+}
+
+#bg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  width: 375px;
+  height: 1464px;
+  background-image: url("bground-notext.png");
+  background-size: 100%;
+  text-align: center;
+}
+
+#logo {
+  font-family: albas;
+  position: relative;
+  font-size: 110px;
+  top: 135px;
+  color: black;
+  user-select: none;
+}
+
+#gif {
+  height: 250px;
+  width: 340px;
+  position: relative;
+  top: 200px;
+}
+
+#dataForm {
+  position: relative;
+  top: 411px;
+}
+
+#emailInput {
+  position: relative;
+  font-family: alba;
+  font-size: 30px;
+  background: none;
+  border: none;
+  outline: none;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+#mintButton {
+  position: relative;
+  top: 44px;
+  font-family: albas;
+  font-size: 58px;
+  height: 162px;
+  width: 162px;
+  border-radius: 81px;
+  color: #F44132;
+  background: none;
+  border: none;
+}
+
+::placeholder {
+  color: #FFFFFF;
+}
